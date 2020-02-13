@@ -9,7 +9,15 @@ void main() {
     name = 'Nick';
     print(name);
 
-    // Setting constant
+    /*
+     * Setting constant
+     */ 
     const country = 'Portugal';
     print(country);
+
+    /*
+     * Setting variable name
+     */
+    String name = 'Alisson Zampietro';
+    print(name);
 }
