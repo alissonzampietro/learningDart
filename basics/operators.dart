@@ -24,4 +24,24 @@ void main() {
      */
     var sub = a + b;
     print(sub);
+
+    /* 
+     * Bigger than
+     */
+    print(a > b);
+
+    /* 
+     * Smaller than
+     */
+    print(a < b);
+
+    /* 
+     * Multiply
+     */
+    print(a * b);
+
+    /* 
+     * Different
+     */
+    print(a != b);
 }
