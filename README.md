@@ -14,5 +14,5 @@ I'm training DART.
         * [Var](basics/declaring.dart#L3)
     * [Operators](basics/operators.dart)
         * [Concatenating](basics/operators.dart#L3)
-        * [Subtract](basics/operators.dart#L11)
+        * [Subtract](basics/operators.dart#L23)
         * [Sum](basics/operators.dart#L11)
