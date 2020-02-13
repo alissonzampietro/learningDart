@@ -18,6 +18,6 @@ void main() {
     /*
      * Setting variable name
      */
-    String name = 'Alisson Zampietro';
-    print(name);
+    String completeName = 'Alisson Zampietro';
+    print(completeName);
 }
