@@ -16,8 +16,14 @@ void main() {
     print(country);
 
     /*
-     * Setting variable name
+     * Setting strings
      */
     String completeName = 'Alisson Zampietro';
     print(completeName);
+
+    /*
+     * Setting boolean
+     */
+    bool isValid = true;
+    print(isValid);
 }
