@@ -3,4 +3,5 @@
 I'm training DART.
 
 ## Basics
-* [Integers](basics/variables.dart)
+* [Constants](basics/declaring.dart#L9)
+* [Var](basics/variables.dart#L3)
