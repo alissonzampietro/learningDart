@@ -25,6 +25,8 @@ void main() {
       break;
     case 10:
       print('O valor é 10');
-      break; 
+      break;
+    default:
+      print('ola meu consagrated');
   }
 }

@@ -16,4 +16,13 @@ void main() {
     print('Eu estou no número $temp e faltam ${defaultNumber - temp} para chegar no $defaultNumber');
     temp++;
   }
+
+  /*
+   * Do while
+   */
+  int i = 0;
+  do {
+    print('The actual number is $i');
+    i++;
+  }while(i < 10);
 }

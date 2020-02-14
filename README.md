@@ -16,6 +16,7 @@ I'm training DART.
     * [Strings](basics/declaring.dart#L18)
     * [Var](basics/declaring.dart#L3)
 * [Loops](basics/loops.dart)
+    * [Do/While](basics/loops.dart#L21)
     * [For](basics/loops.dart#L3)
     * [While](basics/loops.dart#L12)
 * [Operators](basics/operators.dart)
