@@ -27,3 +27,6 @@ I'm training DART.
     * [Subtract](basics/operators.dart#L23)
     * [SmallerThan](basics/operators.dart#L34)
     * [Sum](basics/operators.dart#L11)
+
+## Intermediate
+* [Functions](intermediate/functions.dart)
