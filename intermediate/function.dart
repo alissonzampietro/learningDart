@@ -9,7 +9,8 @@ int sum(int a, int b) {
  * Function with optional params
  */
 String showInfo(String name, {int age, double height}) {
-  return "My name is $name, my age is $age and my height is $height";
+  int actualAge = age ?? 20;
+  return "My name is $name, my age is $actualAge and my height is $height";
 }
 
 

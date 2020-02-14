@@ -24,6 +24,7 @@ I'm training DART.
     * [Concatenating](basics/operators.dart#L3)
     * [Different](basics/operators.dart#L44)
     * [Multiply](basics/operators.dart#L39)
+    * [Or in assignment](basics/operators.dart#L11)
     * [Subtract](basics/operators.dart#L23)
     * [SmallerThan](basics/operators.dart#L34)
     * [Sum](basics/operators.dart#L11)
