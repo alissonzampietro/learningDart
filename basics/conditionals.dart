@@ -15,4 +15,16 @@ void main() {
    * Ternary
    */
   print( a > b ? 'maior' : 'menor');
+
+  /* 
+   * Switch
+   */
+  switch(a) {
+    case 20: 
+      print('valor é 20');
+      break;
+    case 10:
+      print('O valor é 10');
+      break; 
+  }
 }

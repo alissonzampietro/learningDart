@@ -5,6 +5,7 @@ I'm training DART.
 ## Basics
 * [Conditionals](basics/conditionals.dart)
     * [Basic](basics/conditionals.dart#L6)
+    * [Switch](basics/conditionals.dart#L20)
     * [Ternary](basics/conditionals.dart#L15)
 * [Declaring variables](basics/declaring.dart)
     * [Boolean](basics/declaring.dart#L24)
