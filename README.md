@@ -30,3 +30,4 @@ I'm training DART.
 
 ## Intermediate
 * [Functions](intermediate/functions.dart)
+    * [Optional Params](intermediate/functions.dart#L9)
