@@ -6,7 +6,7 @@ void main() {
     int b = 7;
 
     /*
-     * Or
+     * Null
      */
     print(b ?? 'Alisson');
 

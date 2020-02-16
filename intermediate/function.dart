@@ -1,3 +1,5 @@
+double balance = 20000;
+
 /*
  * Creating the first function
  */
@@ -6,22 +8,57 @@ int sum(int a, int b) {
 }
 
 /*
- * Function with optional params
+ * Function NAMED params
+ * When you use NAMED params, doesn't matter the position
+ * of params, because you need to pass the name of expected
+ * param
  */
 String showInfo(String name, {int age, double height}) {
   int actualAge = age ?? 20;
-  return "My name is $name, my age is $actualAge and my height is $height";
+  double newHeight = height ?? 1.50;
+  return "My name is $name, my age is $actualAge and my height is $newHeight";
+}
+
+/*
+ * Function POSITIONAL params
+ * When you use POSITIONAL params is necessary the param to 
+ * be in the right expected position
+ */
+String bankAccount(int account, [bool goldClient, String cpf]) {
+  String typeClient = goldClient ? 'gold' : 'medal';
+  return "Account number $account and client $typeClient and "+showBalance();
+}
+
+/*
+ * Function show the total balance
+ */
+String showBalance() {
+  return 'My actual balance is ' + balance.toString();
+}
+
+/*
+ * Function debit
+ */
+double debit(int value, Function rate) {
+  balance -= value;
+
+  balance = rate(balance);  
+  return balance;
+}
+
+/*
+ * Function to calc rate interest
+ */
+double calcRateInterest(int value) {
+  double calc = value - (value * 0.02);
+  return calc;
 }
 
 
 void main() {
-
-  int i = 0;
-  do {
-    print('The sum of actual value plus one is ${sum(i, (i+1))}');
-    i++;
-  }while(i < 10);
-
+  print(showInfo('alisson', height: 1.80, age: 28));
+  print(bankAccount(19595959, true));
+  debit(1300, calcRateInterest);
+  print(showBalance());
   print(showInfo('Alisson', age:25, height:1.7));
-
 }
