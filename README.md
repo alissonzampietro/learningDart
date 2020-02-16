@@ -31,7 +31,10 @@ I'm training DART.
 
 ## Intermediate
 * [Functions](intermediate/functions.dart)
-    * [Optional Params](intermediate/functions.dart#L9)
+    * [Function as params](#)
+        * [Anonymus](intermediate/functions.dart#L61)
+        * [Defined](intermediate/functions.dart#L40)
+    * [Optional Params](intermediate/functions.dart#L11)
     * [TYPE of Params](#)
-        * [NAMED Params](intermediate/functions.dart#L9)
+        * [NAMED Params](intermediate/functions.dart#L11)
         * [POSITIONAL Params](intermediate/functions.dart#L21)

@@ -37,7 +37,10 @@ String showBalance() {
 }
 
 /*
- * Function debit
+ * Passing function as params
+ * Here you can see that i'm passing a function
+ * as param. For this you just need to put the 
+ * function name ifself
  */
 double debit(int value, Function rate) {
   balance -= value;
@@ -54,11 +57,19 @@ double calcRateInterest(int value) {
   return calc;
 }
 
+/*
+ * Anonymus function as params
+ */
+void runAnonymus(Function what) {
+  what();
+}
+
 
 void main() {
   print(showInfo('alisson', height: 1.80, age: 28));
   print(bankAccount(19595959, true));
   debit(1300, calcRateInterest);
   print(showBalance());
+  runAnonymus((){print('Welcome anonymus function');});
   print(showInfo('Alisson', age:25, height:1.7));
 }
